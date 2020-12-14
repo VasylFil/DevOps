@@ -148,7 +148,7 @@ tests    | ============================== 4 passed in 0.21s ====================
 
 #### Створення `docker-compose` для `Django` проекту.
 
-#### Запуск `Django` проекту: `docker-compose -p Django up` 
+#### Запуск `Django` проекту: `docker-compose -p Django up`. 
 #### Перевірка наявних імеджів: `docker images`
 ```
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
