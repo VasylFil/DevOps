@@ -1,0 +1,26 @@
+version: '3.7'
+services:
+  compose_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: vasylfil/app:compose-app
+    container_name: compose-app
+    networks:
+      - public
+    ports:
+      - 8000:8000
+  compose_mon:
+    build:
+      context: .
+      dockerfile: Dockerfile.monitoring
+    image: vasylfil/app:compose-mon
+    container_name: compose-mon
+    depends_on: 
+      - compose_app
+    networks:
+      - public
+
+networks:
+  public:
+    driver: bridge
