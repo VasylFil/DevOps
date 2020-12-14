@@ -159,7 +159,7 @@ vasylfil/app        v19.03              2446108687a1        3 weeks ago         
 ```
 #### Завантаження нових імеджів до репозиторію: `docker-compose push`
 #### Розроблений файл `docker-compose.yaml` завантажено до репозиторію [4ї](https://github.com/VasylFil/lbs/tree/main/Lab_4) ЛР. Посилання на [raw](https://github.com/VasylFil/lbs/tree/main/Lab_4/docker-compose.yaml) файл. Нові імеджі завантажено на докер [репозиторій](https://hub.docker.com/repository/docker/vasylfil/app).
-
+##
 ![](./img/mandalorian.jpg)
 ```
  _____ _            _____                         _       
