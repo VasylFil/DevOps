@@ -1,7 +1,7 @@
 # Лабораторна робота №5. Автоматизація за допомогою Makefile VS Docker Compose
 
 ## Docker [ID](https://hub.docker.com/u/vasylfil) & Docker [Repository](https://hub.docker.com/repository/docker/vasylfil/flask)
-#### Скріншоти до цієї лабораторної роботи розміщені [тут](https://github.com/VasylFil/lbs/tree/main/Lab_4/img/) 
+#### Скріншоти до цієї лабораторної роботи розміщені [тут](https://github.com/VasylFil/lbs/tree/main/Lab_5/img/) 
 ### Завдання 1-6.
 #### Ініціалізація віртуального середовища `pipenv --python 3.8`
 ```
@@ -148,7 +148,7 @@ tests    | ============================== 4 passed in 0.21s ====================
 
 #### Створення `docker-compose` для `Django` проекту.
 
-#### Запуск `Django` проекту: `docker-compose -p Django up`. 
+#### Запуск `Django` проекту: `docker-compose -p Django up` 
 #### Перевірка наявних імеджів: `docker images`
 ```
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE

@@ -1,7 +1,6 @@
 # Лабораторна робота №4: Робота з Docker
 
-### Docker [ID](https://hub.docker.com/u/vasylfil)
-### Docker [Repository](https://hub.docker.com/repository/docker/vasylfil/app)
+### Docker [ID](https://hub.docker.com/u/vasylfil) & Docker [Repository](https://hub.docker.com/repository/docker/vasylfil/app)
 
 #### Перевірка коректної інсталяції
 + Перенаправлення виводу команд у файл `my_work.log`
