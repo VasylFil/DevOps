@@ -6,5 +6,3 @@
 |____/ \___| \_/  \___/| .__/|___/  \____\___/ \__,_|_|  |___/\___(_)
 
 ```
-![](https://github.com/VasylFil/lbs/tree/main/Lab_5/img/mandalorian.jpg)
-##

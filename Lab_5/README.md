@@ -6,12 +6,7 @@
 #### Ініціалізація віртуального середовища `pipenv --python 3.8`
 ```
 Using /usr/bin/python3.8 (3.8.0) to create virtualenv...
-⠹ Creating virtual environment...created virtual environment CPython3.8.0.final.0-64 in 719ms
-  creator CPython3Posix(dest=/root/.local/share/virtualenvs/my_app-fMOJg03G, clear=False, no_vcs_ignore=False, global=False)
-  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/root/.local/share/virtualenv)
-    added seed packages: pip==20.3.1, setuptools==51.0.0, wheel==0.36.1
-  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
-
+⠹ Creating virtual environment...
 ✔ Successfully created virtual environment! 
 Virtualenv location: /root/.local/share/virtualenvs/my_app-fMOJg03G
 requirements.txt found, instead of Pipfile! Converting...
@@ -23,7 +18,6 @@ We recommend updating your Pipfile to specify the "*" version, instead.
 
 ```
 Requirements file provided! Importing into Pipfile...
-Pipfile.lock not found, creating...
 Locking [dev-packages] dependencies...
 Locking [packages] dependencies...
 Building requirements...
@@ -33,7 +27,6 @@ Updated Pipfile.lock (dff687)!
 Installing dependencies from Pipfile.lock (dff687)...
   🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 7/7 — 00:00:05
 To activate this project's virtualenv, run pipenv shell.
-Alternatively, run a command inside the virtualenv with pipenv run.
 ```
 #### Запуск додатку `pipenv run python app.py`
 #### Запуск тестування `pipenv run pytest test_app.py --url http://localhost:5000`
@@ -50,10 +43,10 @@ test_app.py ....                                                                
 ```
 ##
 ### Завдання 7-8.
-+ `PHONY` - ціль `Make` призначена для явного задання псевдоцілей 
-+ `run` - директива `Make` ініціалізація та запуск імеджів
-+ `test-app`- директива `Make` запуск процесу тестування 
-+ `docker-prune`- директива `Make` очищає середовище `docker`  
++ `PHONY` - ціль `Make` призначена для явного задання псевдоцілей. 
++ `run` - директива `Make` ініціалізація та запуск імеджів.
++ `test-app`- директива `Make` запуск процесу тестування.
++ `docker-prune`- директива `Make` очищає середовище `docker`. 
 ##
 ### Завдання 9-12.
 #### Виконання директиви *Makefile*: `make .PHONY`
@@ -144,6 +137,7 @@ tests    | ============================== 4 passed in 0.21s ====================
 ###### Проект успішно запущено. Коректне функціонування проекту підтверджується пройденими тестами. Очистка імеджів здійснювалась за допомогою розробленої `Make` директиви `docker-wipe`.
 #### Завантаження `docker-compose` імеджів до репозиторію:
 `docker-compose push`
+#### У контексті розробки під докер інструмент `docker-compose` має значну перевагу над `Makefile`, оскільки більш спеціалізований для цього і дозволяє гнучко будувати необхідні конфігурації для багатьох додатків одразу. 
 ##
 ### Завдання 20.
 #### Створення `docker-compose` для `Django` проекту.
@@ -160,7 +154,6 @@ vasylfil/app        v19.03              2446108687a1        3 weeks ago         
 #### Завантаження нових імеджів до репозиторію: `docker-compose push`
 #### Розроблений файл `docker-compose.yaml` завантажено до репозиторію [4ї](https://github.com/VasylFil/lbs/tree/main/Lab_4) ЛР. Посилання на [raw](https://github.com/VasylFil/lbs/tree/main/Lab_4/docker-compose.yaml) файл. Нові імеджі завантажено на докер [репозиторій](https://hub.docker.com/repository/docker/vasylfil/app).
 ##
-![](./img/mandalorian.jpg)
 ```
  _____ _            _____                         _       
 |_   _| |__   ___  |_   _| __ __ _  __ _  ___  __| |_   _ 
@@ -169,3 +162,4 @@ vasylfil/app        v19.03              2446108687a1        3 weeks ago         
   |_| |_| |_|\___|   |_||_|  \__,_|\__, |\___|\__,_|\__, |
                                    |___/            |___/ 
 ```
+![](./img/mandalorian.jpg)

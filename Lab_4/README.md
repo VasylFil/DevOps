@@ -29,7 +29,7 @@ docker/whalesay     latest              6b362a9f73eb        5 years ago         
 
 
 + Запуск створеного Docker-імеджа
-```bash
+```
 docker run -d -p 1903:8000 vasylfil/app:v19.03
 ```
 
@@ -45,7 +45,7 @@ docker push vasylfil/app:v19.03
 #### Створення `Dockerfile.monitoring`
 
 + Білд нового імеджу
-```bash
+```
 docker build -t vasylfil/app:monitoring -f Dockerfile.monitoring . 
 ```
 
@@ -77,12 +77,11 @@ docker volume inspect msf_venom
 docker run -it --net=host -v msf_venom:/app vasylfil/app:monitoring
 ```
 ##
-![Mandalorian](./img/mandalorian.jpg)
 ```
  _____ _                _          _ _ 
 |_   _| |__   ___      | | ___  __| (_)
   | | | '_ \ / _ \  _  | |/ _ \/ _` | |
   | | | | | |  __/ | |_| |  __/ (_| | |
   |_| |_| |_|\___|  \___/ \___|\__,_|_|
-
 ```
+![Mandalorian](./img/mandalorian.jpg)
