@@ -48,12 +48,13 @@ test_app.py ....                                                                
 
 ======================================= 4 passed in 0.22s =======================================
 ```
+##
 ### Завдання 7-8.
 + `PHONY` - ціль `Make` призначена для явного задання псевдоцілей 
 + `run` - директива `Make` ініціалізація та запуск імеджів
 + `test-app`- директива `Make` запуск процесу тестування 
 + `docker-prune`- директива `Make` очищає середовище `docker`  
-
+##
 ### Завдання 9-12.
 #### Виконання директиви *Makefile*: `make .PHONY`
 ```
@@ -112,6 +113,7 @@ The push refers to repository [docker.io/vasylfil/flask]
 ```
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 ```
+##
 ### Завдання 13-19.
 #### Перевірка коректної інсталяції `docker-compose version`
 ```
@@ -142,12 +144,9 @@ tests    | ============================== 4 passed in 0.21s ====================
 ###### Проект успішно запущено. Коректне функціонування проекту підтверджується пройденими тестами. Очистка імеджів здійснювалась за допомогою розробленої `Make` директиви `docker-wipe`.
 #### Завантаження `docker-compose` імеджів до репозиторію:
 `docker-compose push`
-
-
+##
 ### Завдання 20.
-
 #### Створення `docker-compose` для `Django` проекту.
-
 #### Запуск `Django` проекту: `docker-compose -p Django up` 
 #### Перевірка наявних імеджів: `docker images`
 ```
@@ -159,7 +158,7 @@ vasylfil/app        monitoring          553a6257e0ba        8 days ago          
 vasylfil/app        v19.03              2446108687a1        3 weeks ago         326MB
 ```
 #### Завантаження нових імеджів до репозиторію: `docker-compose push`
-#### Розроблений файл `docker-compose.yaml` завантажено до репозиторію [4ї](https://github.com/VasylFil/lbs/tree/main/Lab_4) ЛР. Посилання на [raw](https://github.com/VasylFil/lbs/tree/main/Lab_4/docker-compose.yaml) файлу. Нові імеджі завантажено на докер [репозиторій](https://hub.docker.com/repository/docker/vasylfil/app).
+#### Розроблений файл `docker-compose.yaml` завантажено до репозиторію [4ї](https://github.com/VasylFil/lbs/tree/main/Lab_4) ЛР. Посилання на [raw](https://github.com/VasylFil/lbs/tree/main/Lab_4/docker-compose.yaml) файл. Нові імеджі завантажено на докер [репозиторій](https://hub.docker.com/repository/docker/vasylfil/app).
 
 ![](./img/mandalorian.jpg)
 ```
