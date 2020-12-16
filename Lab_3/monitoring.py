@@ -27,7 +27,7 @@ def main(url):
         except (requests.exceptions.ConnectionError and Exception) as e:
             logging.error('Сервер недоступний')
             logging.error(f'Помилка: {e}')
-        exit(0)
+        return 0
         wait(60)
 
 
