@@ -29,7 +29,6 @@ def lab_5(travis):
 + #### Файл `.travis.yml` [raw](https://github.com/VasylFil/lbs/blob/main/.travis.yml).
 + #### Travis [імедж](https://hub.docker.com/r/vasylfil/app) на Докері.
 + #### Файл `travis-build.sh` [raw](https://github.com/VasylFil/lbs/blob/main/Lab_3/scripts/travis-build.sh).
-    
 ##
 ```
  _____ _            ____       _ _                     
