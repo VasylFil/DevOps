@@ -1,10 +1,11 @@
 ## Lab_6: Автоматизація за допомогою CI/CD серверів.
 
-### Travis [репозиторій]().
-+ #### Файл `.travis.yml` [raw]().
+### Travis [репозиторій](https://travis-ci.com/github/VasylFil/lbs/).
++ #### Файл `.travis.yml` [raw](https://github.com/VasylFil/lbs/blob/main/.travis.yml).
++ #### 
 + ####
 + ####
-+ ####
++ #### & Finally, the [EasterEgg](https://youtu.be/CNa6AUmIP88).
 
 ##
 ```
