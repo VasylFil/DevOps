@@ -1,4 +1,5 @@
 language: python
+
 python:
   - "3.8"
 
@@ -11,7 +12,6 @@ jobs:
         - cd ./Lab_2/
         - pipenv install
       script: pipenv run pytest tests/tests.py || true
-
     - stage: "Build Lab 3."
       name: "Run Django Server and test it accessibility. Fail to run and test"
       python: 3.8
@@ -21,7 +21,6 @@ jobs:
         - pipenv install requests
         - pipenv install django
       script: bash ./scripts/travis-build.sh
-
     - stage: "Build Lab 4."
       name: "Build Docker images & Home task"
       services:
@@ -33,7 +32,6 @@ jobs:
         - docker images
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USER" --password-stdin
         - docker push vasylfil/lab4:django-travis
-
     - stage: "Build Lab 5."
       name: "Build and run Docker images via make"
       services:
