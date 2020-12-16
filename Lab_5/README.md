@@ -1,7 +1,7 @@
 # Лабораторна робота №5. Автоматизація за допомогою Makefile VS Docker Compose
 
 ## Docker [ID](https://hub.docker.com/u/vasylfil) & Docker [Repository](https://hub.docker.com/repository/docker/vasylfil/flask)
-#### Скріншоти до цієї лабораторної роботи розміщені [тут](https://github.com/VasylFil/lbs/tree/main/Lab_5/img/) 
+#### Скріншоти до цієї лабораторної роботи розміщені [тут](https://github.com/VasylFil/lbs/tree/main/Lab_5/img/).
 ### Завдання 1-6.
 #### Ініціалізація віртуального середовища `pipenv --python 3.8`
 ```
@@ -28,8 +28,8 @@ Installing dependencies from Pipfile.lock (dff687)...
   🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 7/7 — 00:00:05
 To activate this project's virtualenv, run pipenv shell.
 ```
-#### Запуск додатку `pipenv run python app.py`
-#### Запуск тестування `pipenv run pytest test_app.py --url http://localhost:5000`
+#### Запуск додатку: `pipenv run python app.py`
+#### Запуск тестування: `pipenv run pytest test_app.py --url http://localhost:5000`
 
 ```
 ====================================== test session starts ======================================
