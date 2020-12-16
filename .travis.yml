@@ -30,7 +30,7 @@ jobs:
       script:
         - docker build -t vasylfil/app:django-travis .
         - docker images
-        - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USER" --password-stdin
+        - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
         - docker push vasylfil/app:django-travis
     - stage: "Build Lab 5."
       name: "Build and run Docker images via make"
