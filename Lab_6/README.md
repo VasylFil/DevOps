@@ -24,7 +24,6 @@ def lab_5(travis):
     }
 ```
 
-
 ### Travis [репозиторій](https://travis-ci.com/github/VasylFil/lbs/).
 + #### Файл `.travis.yml` [raw](https://github.com/VasylFil/lbs/blob/main/.travis.yml).
 + #### Travis [імедж](https://hub.docker.com/r/vasylfil/app) на Докері.
